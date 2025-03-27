@@ -1,10 +1,9 @@
 name: CI with Docker Compose
- 
-on:
-push:
-   branches:
-     - main
-pull_request:
+    on:
+      push:
+       branches:
+         - main
+       pull_request:
 
 jobs:
 docker-ci:
